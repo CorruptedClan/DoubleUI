@@ -18,20 +18,53 @@ local MainTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-local GeneralTab = Window:MakeTab({
+local CreditsTab = Window:MakeTab({
 	Name = "General Use",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 -- Sections
+local ToolSection = ToolTab:AddSection({
+	Name = "Tools"
+})
 
-local ScriptsSection = Tab:AddSection({
+local MainSection = MainTab:AddSection({
 	Name = "Scripts"
 })
 
+--Buttons
 ToolTab:AddButton({
 	Name = "Fullbright",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU", true))()
+  	end    
+})
+
+ToolTab:AddButton({
+	Name = "Mobile Keyboard",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+  	end    
+})
+
+ToolTab:AddButton({
+	Name = "Fly V3",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  	end    
+})
+
+--Button Scripts
+MainTab:AddButton({
+	Name = "Block Drop Auto Win",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/DoubleDown.lua?raw=true"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Sword Fight Auto Win",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU", true))()
   	end    
