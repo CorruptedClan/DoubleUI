@@ -1,6 +1,6 @@
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
-local Library = DarkraiX:Window("SyrHub","","",Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("Double Down BETA","","",Enum.KeyCode.RightControl);
 
 
 Tab1 = Library:Tab("Scripts")
@@ -17,7 +17,7 @@ end)
 
 Tab1:Button("Cups (buggy)",function()
     local Descendants = workspace:GetDescendants()
- 
+
  
 for i, value in pairs(Descendants) do
     if value.Name == "Important" then
@@ -35,4 +35,42 @@ for i, value in pairs(Descendants) do
         end
      end  
 end
+end)
+
+Tab1:Button("Staring Contest",function()
+    local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+   wait(1)
+   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+end)
+end)
+
+
+
+Tab2:Button("Keyboard (required for sword fight)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab2:Button("Fly V3",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+
+
+
+Tab3:Button("EdxymRBLX - Youtube",function()
+    print("it was cool working on this")
+end)
+
+Tab3:Button("Zeno6772 - UI helper",function()
+    print("cool")
+end)
+
+Tab3:Button("MickeyL_Swpra331 - Coder",function()
+    print("haha")
+end)
+
+Tab3:Button("SyrHub - Sponsor",function()
+    print("USE IT NOW B*TCH")
 end)
