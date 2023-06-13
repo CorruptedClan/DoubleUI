@@ -30,10 +30,10 @@ local ToolSection = ToolTab:AddSection({
 })
 
 local MainSection = MainTab:AddSection({
-	Name = "Scripts"
+	Name = "Block Drop"
 })
 
---Buttons
+--ButtonsTools
 ToolTab:AddButton({
 	Name = "Fullbright",
 	Callback = function()
@@ -66,6 +66,16 @@ MainTab:AddButton({
 MainTab:AddButton({
 	Name = "Sword Fight Auto Win",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/06iG6YkU", true))()
+      		loadstring(game:HttpGet("https://scriptblox.com/raw/steal-time-from-others-and-be-the-best-Teleport-aura-7902", true))()
   	end    
 })
+
+
+
+
+
+
+
+
+
+OrionLib:Init()
