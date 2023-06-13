@@ -26,11 +26,11 @@ for i, value in pairs(Descendants) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
                 v["1"].Detail.Transparency = 1
+                v["3"].Primary.Transparency = 1
+                v["4"].Detail.Transparency = 1
                 v["1"].Primary.Transparency = 1
                 v["3"].Detail.Transparency = 1
-                v["3"].Primary.Transparency = 1
-                v["5"].Detail.Transparency = 1
-                v["5"].Primary.Transparency = 1
+                v["4"].Primary.Transparency = 1
             end
         end
      end  
