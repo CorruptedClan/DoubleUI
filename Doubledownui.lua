@@ -1,5 +1,5 @@
 --Username
-if game.Players.LocalPlayer.Username == {"Wizard_CatWhite", "Username2", "Username3"} then
+if game.Players.LocalPlayer.Username== {"", "Username2", "Username3"} then
  print("Whitelisted")
 --Your Script
 else
