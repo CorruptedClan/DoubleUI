@@ -40,7 +40,7 @@ local IPWhitelists = {
 }
 
 local UseridWhitelists = {
-    ,  -- Put the Userid here
+    "",  -- Put the Userid here
     "2241073869",
     "",
     "",
