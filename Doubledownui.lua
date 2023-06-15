@@ -1,9 +1,9 @@
 --Username
-if game.Players.LocalPlayer.Username== {"Wizard_CatWhite", "Username2", "Username3"} then
+if game.Players.LocalPlayer.Username == {"Wizard_CatWhite", "Username2", "Username3"} then
  print("Whitelisted")
 --Your Script
 else
-game.Players.LocalPlayer: Kick("Not Whitelisted")
+game.Players.LocalPlayer:Kick("Not Whitelisted")
 end
 
 
