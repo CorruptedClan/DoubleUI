@@ -1,4 +1,3 @@
-lua
 -- <Local>
 local httpService = game:GetService("HttpService")
 local HwidGet = game:GetService("RbxAnalyticsService"):GetClientId()
