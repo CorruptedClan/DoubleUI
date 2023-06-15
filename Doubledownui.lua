@@ -41,16 +41,16 @@ local IPWhitelists = {
 
 local UseridWhitelists = {
     ,  -- Put the Userid here
-    1,2241073869
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
-    1,
+    "2241073869",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
 }
 
 local UserNameWhitelists = {
