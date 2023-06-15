@@ -1,18 +1,3 @@
---Username
-if game.Players.LocalPlayer.Username== {"", "Username2", "Username3"} then
- print("Whitelisted")
---Your Script
-else
-game.Players.LocalPlayer:Kick("Not Whitelisted")
-end
-
-
-
-
-
-
-
-
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
 local Library = DarkraiX:Window("ZenX Beta","Free Version","",Enum.KeyCode.RightControl);
