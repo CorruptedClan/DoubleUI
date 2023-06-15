@@ -4,7 +4,7 @@ if game.Players.LocalPlayer.Username== {"Wizard_CatWhite", "Username2", "Usernam
 --Your Script
 else
 game.Players.LocalPlayer: Kick("Not Whitelisted")
- end
+end
 
 
 
