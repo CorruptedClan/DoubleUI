@@ -1,6 +1,6 @@
 local whitelist = {
     Usernames = {
-        "Wizard_CatWhite",
+        "Username1",
         "Username2",
         "Username3",
     },
