@@ -15,6 +15,10 @@ Tab1:Button("Sword Fight",function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/steal-time-from-others-and-be-the-best-Teleport-aura-7902", true))()
 end)
 
+Tab1:Button("Sword Fight Bot (press X)",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
+end)
+
 Tab1:Button("Cups (buggy)",function()
     local Descendants = workspace:GetDescendants()
 
