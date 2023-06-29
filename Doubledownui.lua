@@ -70,6 +70,94 @@ for i, value in pairs(Descendants) do
 end
 end)
 
+Tab3:Button("Cup 2", function()
+local Descendants = workspace:GetDescendants()
+
+ 
+for i, value in pairs(Descendants) do
+    if value.Name == "Important" then
+        local cups = value:GetDescendants()
+        for i, e in pairs (cups) do
+            if e.Name == "Detail" then
+            local v = e.Parent.Parent
+                v["2"].Detail.Transparency = 1
+                v["2"].Primary.Transparency = 1
+                v["2"].Detail.Transparency = 1
+                v["2"].Primary.Transparency = 1
+                v["2"].Detail.Transparency = 1
+                v["2"].Primary.Transparency = 1
+            end
+        end
+     end  
+end
+end)
+
+Tab3:Button("Cup 3", function()
+local Descendants = workspace:GetDescendants()
+
+ 
+for i, value in pairs(Descendants) do
+    if value.Name == "Important" then
+        local cups = value:GetDescendants()
+        for i, e in pairs (cups) do
+            if e.Name == "Detail" then
+            local v = e.Parent.Parent
+                v["3"].Detail.Transparency = 1
+                v["3"].Primary.Transparency = 1
+                v["3"].Detail.Transparency = 1
+                v["3"].Primary.Transparency = 1
+                v["3"].Detail.Transparency = 1
+                v["3"].Primary.Transparency = 1
+            end
+        end
+     end  
+end
+end)
+
+Tab3:Button("Cup 4", function()
+local Descendants = workspace:GetDescendants()
+
+ 
+for i, value in pairs(Descendants) do
+    if value.Name == "Important" then
+        local cups = value:GetDescendants()
+        for i, e in pairs (cups) do
+            if e.Name == "Detail" then
+            local v = e.Parent.Parent
+                v["4"].Detail.Transparency = 1
+                v["4"].Primary.Transparency = 1
+                v["4"].Detail.Transparency = 1
+                v["4"].Primary.Transparency = 1
+                v["4"].Detail.Transparency = 1
+                v["4"].Primary.Transparency = 1
+            end
+        end
+     end  
+end
+end)
+
+Tab3:Button("Cup 5", function()
+local Descendants = workspace:GetDescendants()
+
+ 
+for i, value in pairs(Descendants) do
+    if value.Name == "Important" then
+        local cups = value:GetDescendants()
+        for i, e in pairs (cups) do
+            if e.Name == "Detail" then
+            local v = e.Parent.Parent
+                v["5"].Detail.Transparency = 1
+                v["5"].Primary.Transparency = 1
+                v["5"].Detail.Transparency = 1
+                v["5"].Primary.Transparency = 1
+                v["5"].Detail.Transparency = 1
+                v["5"].Primary.Transparency = 1
+            end
+        end
+     end  
+end
+end)
+
 Tab4:Button("Staring Contest",function()
     local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -81,29 +169,29 @@ end)
 
 
 
-Tab2:Button("Keyboard (required for sword fight)",function()
+Tab5:Button("Keyboard (required for sword fight)",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end)
 
-Tab2:Button("Fly V3",function()
+Tab5:Button("Fly V3",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 end)
 
 
 
 
-Tab3:Button("EdxymRBLX - Youtube",function()
+Tab6:Button("EdxymRBLX - Youtube",function()
     print("it was cool working on this")
 end)
 
-Tab3:Button("Zeno6772 - UI helper",function()
+Tab6:Button("Zeno6772 - UI helper",function()
     print("cool")
 end)
 
-Tab3:Button("MickeyL_Swpra331 - Coder",function()
+Tab6:Button("MickeyL_Swpra331 - Coder",function()
     print("haha")
 end)
 
-Tab3:Button("SyrHub - Sponsor",function()
+Tab6:Button("SyrHub - Sponsor",function()
     print("USE IT NOW B*TCH")
 end)
