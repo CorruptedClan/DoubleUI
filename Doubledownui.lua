@@ -3,23 +3,52 @@ local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/Gami
 local Library = DarkraiX:Window("ZenX Beta","","",Enum.KeyCode.RightControl);
 
 
-Tab1 = Library:Tab("Scripts")
-Tab2 = Library:Tab("Tools")
-Tab3 = Library:Tab("Credits")
+Tab1 = Library:Tab("Block Drop")
+Tab2 = Library:Tab("Sword Fight")
+Tab3 = Library:Tab("Cups")
+Tab4 = Library:Tab("Staring Contest")
+Tab5 = Library:Tab("Tools")
+Tab6 = Library:Tab("Credits")
 
-Tab1:Button("Block Drop",function()
+Tab1:Button("Auto Place Block",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/DoubleDown.lua?raw=true"))()
 end)
 
-Tab1:Button("Sword Fight",function()
+Tab2:Button("Behind TP",function()
     loadstring(game:HttpGet("https://scriptblox.com/raw/steal-time-from-others-and-be-the-best-Teleport-aura-7902", true))()
 end)
 
-Tab1:Button("Sword Fight Bot (press X)",function()
+Tab2:Button("Sword Fight Bot (press X)",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
 end)
 
-Tab1:Button("Cups (buggy)",function()
+Tab2:Button("Sword Aura (reach+killaura)", function()
+--// Setting \--
+local range = 20
+
+--// Variable \--
+local player = game:GetService("Players").LocalPlayer
+
+--// Script \--
+game:GetService("RunService").RenderStepped:Connect(function()
+    local p = game.Players:GetPlayers()
+    for i = 2, #p do local v = p[i].Character
+        if v and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and player:DistanceFromCharacter(v.HumanoidRootPart.Position) <= range then
+            local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
+            if tool and tool:FindFirstChild("Handle") then
+                tool:Activate()
+                for i,v in next, v:GetChildren() do
+                    if v:IsA("BasePart") then
+                        firetouchinterest(tool.Handle,v,0)
+                        firetouchinterest(tool.Handle,v,1)
+                    end
+                end
+            end
+        end
+    end
+end)
+
+Tab3:Button("Cup 1",function()
     local Descendants = workspace:GetDescendants()
 
  
@@ -30,18 +59,18 @@ for i, value in pairs(Descendants) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
                 v["1"].Detail.Transparency = 1
-                v["3"].Primary.Transparency = 1
-                v["4"].Detail.Transparency = 1
                 v["1"].Primary.Transparency = 1
-                v["3"].Detail.Transparency = 1
-                v["4"].Primary.Transparency = 1
+                v["1"].Detail.Transparency = 1
+                v["1"].Primary.Transparency = 1
+                v["1"].Detail.Transparency = 1
+                v["1"].Primary.Transparency = 1
             end
         end
      end  
 end
 end)
 
-Tab1:Button("Staring Contest",function()
+Tab4:Button("Staring Contest",function()
     local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
    vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
