@@ -47,6 +47,7 @@ game:GetService("RunService").RenderStepped:Connect(function()
         end
     end
 end)
+end)
 
 Tab3:Button("Cup 1",function()
     local Descendants = workspace:GetDescendants()
