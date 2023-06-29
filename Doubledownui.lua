@@ -59,11 +59,11 @@ for i, value in pairs(Descendants) do
         for i, e in pairs (cups) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
-                v["1"].Detail.Transparency = 1
+                v["1"].Detail.Transparency = 0
                 v["1"].Primary.Transparency = 1
-                v["1"].Detail.Transparency = 1
+                v["1"].Detail.Transparency = 0
                 v["1"].Primary.Transparency = 1
-                v["1"].Detail.Transparency = 1
+                v["1"].Detail.Transparency = 0
                 v["1"].Primary.Transparency = 1
             end
         end
@@ -81,11 +81,11 @@ for i, value in pairs(Descendants) do
         for i, e in pairs (cups) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
-                v["2"].Detail.Transparency = 1
+                v["2"].Detail.Transparency = 0
                 v["2"].Primary.Transparency = 1
-                v["2"].Detail.Transparency = 1
+                v["2"].Detail.Transparency = 0
                 v["2"].Primary.Transparency = 1
-                v["2"].Detail.Transparency = 1
+                v["2"].Detail.Transparency = 0
                 v["2"].Primary.Transparency = 1
             end
         end
@@ -103,11 +103,11 @@ for i, value in pairs(Descendants) do
         for i, e in pairs (cups) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
-                v["3"].Detail.Transparency = 1
+                v["3"].Detail.Transparency = 0
                 v["3"].Primary.Transparency = 1
-                v["3"].Detail.Transparency = 1
+                v["3"].Detail.Transparency = 0
                 v["3"].Primary.Transparency = 1
-                v["3"].Detail.Transparency = 1
+                v["3"].Detail.Transparency = 0
                 v["3"].Primary.Transparency = 1
             end
         end
@@ -125,11 +125,11 @@ for i, value in pairs(Descendants) do
         for i, e in pairs (cups) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
-                v["4"].Detail.Transparency = 1
+                v["4"].Detail.Transparency = 0
                 v["4"].Primary.Transparency = 1
-                v["4"].Detail.Transparency = 1
+                v["4"].Detail.Transparency = 0
                 v["4"].Primary.Transparency = 1
-                v["4"].Detail.Transparency = 1
+                v["4"].Detail.Transparency = 0
                 v["4"].Primary.Transparency = 1
             end
         end
@@ -147,11 +147,11 @@ for i, value in pairs(Descendants) do
         for i, e in pairs (cups) do
             if e.Name == "Detail" then
             local v = e.Parent.Parent
-                v["5"].Detail.Transparency = 1
+                v["5"].Detail.Transparency = 0
                 v["5"].Primary.Transparency = 1
-                v["5"].Detail.Transparency = 1
+                v["5"].Detail.Transparency = 0
                 v["5"].Primary.Transparency = 1
-                v["5"].Detail.Transparency = 1
+                v["5"].Detail.Transparency = 0
                 v["5"].Primary.Transparency = 1
             end
         end
