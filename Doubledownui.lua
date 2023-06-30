@@ -50,7 +50,9 @@ end)
 end)
 
 Tab3:Button("wait for fix...",function()
-    
+    print("wait for fix")
+end)
+
 Tab4:Button("Staring Contest",function()
     local vu = game:GetService("VirtualUser")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
