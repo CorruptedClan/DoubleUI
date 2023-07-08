@@ -9,7 +9,7 @@
 local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
 
 local Window = ArrayField:CreateWindow({
-   Name = "ArrayField Example Window",
+   Name = "ZenX Beta | Double Down",
    LoadingTitle = "Loading ZenX Beta",
    LoadingSubtitle = "thank you for using",
    ConfigurationSaving = {
