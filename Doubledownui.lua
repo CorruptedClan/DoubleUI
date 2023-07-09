@@ -112,7 +112,7 @@ local Button = block:CreateButton({
    Name = "Auto Place Blocks",
    Interact = 'Click',
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/DoubleDown.lua?raw=true"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Misc%20Scripts/DoubleDown.lua"))()
    end,
 })
 
