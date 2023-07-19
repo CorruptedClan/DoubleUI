@@ -1,9 +1,7 @@
---AntiCheat Bypass---------------------------------------------------------------------- 
- local item = game.Players.LocalPlayer.Character:FindFirstChild('FJsMovementAnticheat')-- 
- if item then --------------------------------------------------------------------------- 
-    item:Destroy()----------------------------------------------------------------------- 
- end ------------------------------------------------------------------------------------ 
- ----------------------------------------------------------------------------------------
+local item = game.Players.LocalPlayer.Character:FindFirstChild("FJsMovementAnticheat")
+ if item then
+item:Destroy()
+end
 
 
 local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
@@ -153,6 +151,15 @@ game:GetService("RunService").RenderStepped:Connect(function()
         end
     end
 end)
+   end,
+})
+
+--sword reach 2
+local Button = sword:CreateButton({
+   Name = "Sword reach 2 (idk if works)",
+   Interact = 'Click',
+   Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/tsbVWZdP"))()
    end,
 })
 
