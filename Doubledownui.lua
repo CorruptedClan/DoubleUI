@@ -59,7 +59,7 @@ Window:Prompt({
 local credits = Window:CreateTab("Credits", 4483362458) -- Title, Image
 local block = Window:CreateTab("Block Drop", 4483362458) -- Title, Image
 local sword = Window:CreateTab("Sword Fight", 4483362458) -- Title, Image
-local cups = Window:CreateTab("Cups", 4483362458) -- Title, Image
+local cups = Window:CreateTab("Cups (patched)", 4483362458) -- Title, Image
 local stare = Window:CreateTab("Staring Contest", 4483362458) -- Title, Image
 local tools = Window:CreateTab("Tools", 4483362458) -- Title, Image
 
